@@ -1,0 +1,318 @@
+body{
+    margin: 10px 100px;
+    padding: 0px;
+    font-family: 'poppins';
+    box-sizing: border-box;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#000;
+}
+.logo{
+    font-size: 23px;
+    font-weight: 600;
+}
+.nav{
+    list-style: none;
+}
+.nav li{
+    display: inline;
+    padding-right: 20px;
+}
+.nav li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+}
+.login{
+    font-size: 13.5px;
+    font-weight: bold;
+}
+.login a{
+    text-decoration: none;
+    color: #000;
+    padding-right: 10px;
+}
+.login button{
+    color:whitesmoke;
+    background-color: #000;
+    font-size: 11px;
+    padding: 8px 45px;
+}
+
+
+
+
+
+#banner h3{
+    padding-left: 70px;
+    padding-top:10px;
+    font-size: 32px;
+    line-height:40px;    
+    width: 50%;
+}
+.b-img{
+    margin-bottom: -750px;
+    padding-left: 777px;
+    height: 800px;
+}
+.b-body{
+    background-color: #F3E5AB;
+    padding-top:1px;
+    padding-left: 45px;
+    padding-bottom: 30px;
+}
+.b-body h1{
+    font-size:70px;
+    line-height:70px;
+    width: 50%;
+}
+.b-body span{
+    line-height:90px;
+}
+.b-body button{
+    padding: 18px 85px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color:#FBDE93;
+    background-color: #000;
+    margin-left:2px;
+}
+.fa-solid{
+    position: relative;
+    top: 140px;
+    right:250px;
+    color: turquoise;
+    font-size: 70px;
+}
+.b-body p{
+    font-weight:bold;
+    font-size: 20px;
+    padding-left: 110px;
+    padding-top:20px;
+}
+
+
+#season{
+    position: relative;
+    top: 50px;
+}
+.list{
+    text-align: center;
+}
+.list h1{
+     font-size: 38px;
+     margin-bottom: 5px;
+ }
+.list a{
+    text-decoration: none;
+    color: #000;    
+    font-weight: bold;
+    /* font-size: 18px; */
+    padding-left: 25px;
+
+}
+.s-head{
+    position: absolute;
+    left: 415px;
+    top:250px;
+    background-color:#f5f5f57a;
+    text-align: center;
+    font-size: 40px;
+    line-height: 90%;
+    padding: 15px 0;
+    width: 25%;
+
+}
+.s-img{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.flex-new{
+    background-image: url('./images/two-young-beautiful-smiling-blond-hipster-girls-trendy-summer-colorful-t-shirt-clothes.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 55%;
+    height: 250px;
+}
+.flex-trend{
+    background-image: url('./images/images\ \(1\).png');
+    background-size: cover;
+    background-position:top;
+    background-repeat: no-repeat;
+    width: 43%;
+    height: 250px;
+    
+}
+.s-imgg{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.flex-neww{
+    background-image: url('./images/images\ \(1\).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 41%;
+    height: 250px;
+}
+.flex-trendd{
+    background-image: url('./images/group-young-three-stylish-friends-posing-street-fashion-man-two-cute-girls-dressed-casual-summer-clothes-smiling-models-having-fun-sunglasses-cheerful-women-guy-going-crazy.jpg');
+    background-size: cover;
+    background-position:top;
+    background-repeat: no-repeat;
+    width: 57%;
+    height: 250px;
+    
+}
+
+
+
+#arrival{
+   padding-top: 50px;
+   text-align: center;
+}
+.a-head h1{
+         font-size: 38px;
+         text-align: center;
+         margin-bottom: 5px;
+}
+.a-head a{
+    text-decoration: none;
+    color: #000;    
+    font-weight: bold;
+    /* font-size: 18px; */
+    padding-left: 25px;
+}
+.a-body{
+    padding-top:30px ;
+    display: flex;
+    justify-content: space-between;
+}
+.a-img{
+    background-image: url('./images/image-happy-young-woman-carry-lots-shopping-bags-buying-things-spring-discounts-standing-blue-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 49%;
+    height: 300px;
+}
+.a-img h3{
+    color: #fff;
+    font-size: 30px;
+    float: right;
+    padding-right:15px;  
+}
+.a-img a{
+    text-decoration: none;
+    /* float: right; */
+    color: #000;
+    background-color: #f5f5f57a;
+    padding: 8px 20px;
+    /* font-size: 12px; */
+    font-weight:900;
+}
+
+.a-imgg{
+    background-image: url('./images/beautiful-girl-sunglasses-bright-yellow-background_78826-172.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 49%;
+    height: 300px;
+}
+/* .a-imgg h3{
+    color: #fff;
+    font-size: 30px;
+    float: right;
+    padding-right:15px;  
+} */
+
+
+
+
+
+.summer{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.summer-img{
+    background-image: url('./images/Screenshot\ 2022-07-13\ 224625.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 53%;
+    height: 400px;
+}
+.summer-text{
+    width: 45%;
+}
+.summer-text h1{
+    font-size: 40px;
+    font-weight:bolder;
+    line-height: .3;
+}
+.off{
+    color: #FFDE00;
+}
+.summer-text p{
+    font-weight: bolder;
+    font-size: 15px;
+}
+.customer{
+    width: 50%;
+    float: left;
+    /* padding-bottom: 10px; */
+    color:#000;
+}
+.customer h1{
+    font-size: 40px;
+}
+.customer p{
+    font-size: 22px;
+}
+.month{
+    /* display: block */
+    margin-top: 50px;
+    width: 100%;
+    /* background-color: #000; */
+    /* color: #fff;    */
+}
+/* .dot{
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 50%;
+} */
+.style{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.style-text{
+    width: 45%;
+}
+.text{
+
+    font-size: 50px;
+    line-height: 50px;
+}
+.text span{
+    color: #FFDE00;
+}
+.style-img{
+    background-image: url('./images/style\ 1.png');
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:47%;
+    height: 700px;
+}
